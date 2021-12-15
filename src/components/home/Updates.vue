@@ -10,6 +10,7 @@
           <li>Tons of portfolio projects to display</li>
           <li>Blog details</li>
           <li>V1.0 Secret path update</li>
+          <li>& mobile optimizations</li>
         </ul>
       </div>
     </div>
