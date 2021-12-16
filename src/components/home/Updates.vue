@@ -4,12 +4,12 @@
       <span class="text-3xl mx-5 my-10">Upcoming updates</span>
 
       <div class="flex flex-col items-center">
-        <p class="text-xl font-bold">Version 1.0</p>
+        <p class="text-xl font-bold">Version 0.1</p>
         <ul class="flex flex-col items-center">
           <li>New navigation links</li>
           <li>Tons of portfolio projects to display</li>
           <li>Blog details</li>
-          <li>V1.0 Secret path update</li>
+          <li>V0.1 Secret path update</li>
           <li>& mobile optimizations</li>
         </ul>
       </div>
