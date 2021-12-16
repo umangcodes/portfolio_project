@@ -3,7 +3,9 @@
     <div class="grid grid-cols-6">
       <div class="col-start-2 col-span-4 flex items-center">
         <!-- <span class="grid justify-items-stretch text-3xl font-bold m-auto" -->
-        <div class="lg:text-3xl text-xl font-extralight">Umang Agrawal</div>
+        <router-link to="/">
+          <div class="lg:text-3xl text-xl font-extralight">Umang Agrawal</div>
+        </router-link>
         <!-- </span> -->
       </div>
     </div>
