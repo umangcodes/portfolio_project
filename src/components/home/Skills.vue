@@ -13,27 +13,31 @@
           <span class="text-center font-bold text-9xl">Skills</span>
         </div>
       </div>
-      <div class="grid-start-2 flex items-center">
-        <span class="text-xl font-semibold">Technical</span>
-        <ul class="px-5">
-          <li>Vuex</li>
-          <li>Vue-Router</li>
-          <li>Vuetify</li>
-          <li>Nuxt</li>
-          <li>React</li>
-          <li>GIT</li>
-          <li>Rest Api</li>
-          <li>GraphQL</li>
-        </ul>
+      <div class="flex items-center">
+        <div class="grid-start-2 flex flex-col justify-items-center">
+          <span class="text-xl font-semibold">Technical</span>
+          <ul class="px-5">
+            <li>Vuex</li>
+            <li>Vue-Router</li>
+            <li>Vuetify</li>
+            <li>Nuxt</li>
+            <li>React</li>
+            <li>GIT</li>
+            <li>Rest Api</li>
+            <li>GraphQL</li>
+          </ul>
+        </div>
       </div>
-      <div class="grid-start-3 flex items-center">
-        <span class="text-xl font-semibold">Others</span>
-        <ul class="px-5">
-          <li>Linux</li>
-          <li>Efficient time management</li>
-          <li>Adaptibility to new tech and processes</li>
-          <li></li>
-        </ul>
+      <div class="flex items-center">
+        <div class="grid-start-3 flex flex-col justify-items-center">
+          <span class="text-xl font-semibold">Others</span>
+          <ul class="px-5">
+            <li>Linux</li>
+            <li>Efficient time management</li>
+            <li>Adaptibility to new tech and processes</li>
+            <li></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
