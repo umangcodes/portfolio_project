@@ -9,11 +9,11 @@
     <div class="flex flex-col items-center justify-center mt-5 mx-5 h-40">
       <div class="flex items-center justify-center">
         <a href="https://www.linkedin.com/in/umanga-eng/" class="px-5">
-          <linkedin-icon />
+          <LinkedinIconWhite />
         </a>
         |
         <a href="https://github.com/umangcodes" class="px-5">
-          <github-icon />
+          <GithubIconWhite />
         </a>
       </div>
       <span class="text-xl text-white font-medium pt-5"
@@ -33,12 +33,12 @@
 </template>
 
 <script>
-import LinkedinIcon from "../icons/Linkedin-icon.vue";
-import GithubIcon from "../icons/Github-icon.vue";
+import LinkedinIconWhite from "../icons/Linkedin-icon-white.vue";
+import GithubIconWhite from "../icons/Github-icon-white.vue";
 export default {
   components: {
-    LinkedinIcon,
-    GithubIcon,
+    LinkedinIconWhite,
+    GithubIconWhite,
   },
 };
 </script>
