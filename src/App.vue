@@ -2,16 +2,16 @@
   <div class="m-0">
     <Header />
     <router-view />
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 </template>
 <script>
 import Header from "./components/navigation/Header.vue";
-// import Footer from "./components/navigation/Footer.vue";
+import Footer from "./components/navigation/Footer.vue";
 export default {
   components: {
     Header,
-    // Footer,
+    Footer,
   },
 };
 </script>
