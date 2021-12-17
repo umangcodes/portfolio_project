@@ -1,5 +1,5 @@
 <template>
-  <div id="projects" class="mx-5 my-5 h-screen mb-auto">
+  <div id="projects" class="mx-5 my-5 h-auto">
     <!-- Heading -->
     <div class="flex flex-col items-center">
       <span class="text-4xl">My projects</span>
@@ -31,7 +31,7 @@ export default {
           title: "project 1",
           description:
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod nisi nemo ad nesciunt molestias minus aut ipsa, veniam voluptas cumque eum hic inventore! Temporibus ad id animi quod nemo?",
-          gitLink: "",
+          gitLink: "https://github.com/umangcodes/pokemon",
           depLink: "",
         },
         {
