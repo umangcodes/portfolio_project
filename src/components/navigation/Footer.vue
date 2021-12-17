@@ -1,7 +1,7 @@
 <template>
   <div
     id="Footer"
-    class="relative bottom-0 border-t h-auto w-screen"
+    class="absolute bottom-0 border-t h-auto w-screen"
     style="
       background-image: url('https://wallpaperaccess.com/full/1947484.jpg');
     "
