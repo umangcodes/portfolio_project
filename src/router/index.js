@@ -1,7 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
+import store from "../store/index.js";
 import Home from "../views/Home.vue";
 import SecretPathV1 from "../views/SecretPathV1.vue";
 import Projects from "../views/Projects.vue";
+
 const routes = [
   {
     path: "/",
@@ -12,6 +14,13 @@ const routes = [
     path: "/secret_path",
     name: "Secret Path 1",
     component: SecretPathV1,
+    beforeEnter: (to, from, next) => {
+      if (store.state.passcode == "pass!") {
+        next();
+      } else {
+        next("/");
+      }
+    },
   },
   {
     path: "/projects",
