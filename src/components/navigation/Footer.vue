@@ -26,9 +26,11 @@
       </span>
     </div>
     <div class="flex justify-evenly">
-      <button class="text-white text-xl">Home</button>
-      <button class="text-white text-xl">Projects</button>
-      <button class="text-white text-xl">About</button>
+      <button class="text-white text-xl" :onClick="homeClicked">Home</button>
+      <button class="text-white text-xl" :onClick="projectsClicked">
+        Projects
+      </button>
+      <button class="text-white text-xl" :onClick="aboutClicked">About</button>
     </div>
     <div class="flex items-center justify-center my-2">
       <span class="text-lg font-extralight font-sans italic"
@@ -45,6 +47,23 @@ export default {
   components: {
     LinkedinIconWhite,
     GithubIconWhite,
+  },
+  methods: {
+    homeClicked() {
+      console.log("Going to home page!");
+      this.$router.push("/");
+      window.scroll(0, 0);
+    },
+    projectsClicked() {
+      console.log("Going to projects page!");
+      this.$router.push("/projects");
+      window.scroll(0, 0);
+    },
+    aboutClicked() {
+      console.log("Going to about page!");
+      this.$router.push("/about");
+      window.scroll(0, 0);
+    },
   },
 };
 </script>
