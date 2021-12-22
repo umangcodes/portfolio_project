@@ -2,7 +2,7 @@ import { createStore } from "vuex";
 
 export default createStore({
   state: {
-    passcode: "pass!",
+    passcode: "pass",
   },
   mutations: {
     SET_PASSCODE(state, payload) {
