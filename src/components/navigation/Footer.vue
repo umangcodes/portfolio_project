@@ -6,14 +6,14 @@
       background-image: url('https://wallpaperaccess.com/full/1947484.jpg');
     "
   >
-  <div class="grid grid-cols-6"></div>
+    <div class="grid grid-cols-6"></div>
     <div class="flex flex-col items-center justify-center mt-5 mx-5 h-40">
       <div class="flex items-center justify-center">
         <a href="https://www.linkedin.com/in/umanga-eng/" class="px-5">
           <LinkedinIconWhite />
         </a>
         |
-        <a href="https://github.com/umangcodes" class="px-5">
+        <a href="https://github.com/umangcodes" class="px-5 pt-2">
           <GithubIconWhite />
         </a>
       </div>
@@ -26,9 +26,9 @@
       </span>
     </div>
     <div class="flex justify-evenly">
-      <button class="text-white font-semibold text-xl">Home</button>
-      <button class="text-white font-semibold text-xl">Projects</button>
-      <button class="text-white font-semibold text-xl">About</button>
+      <button class="text-white text-xl">Home</button>
+      <button class="text-white text-xl">Projects</button>
+      <button class="text-white text-xl">About</button>
     </div>
     <div class="flex items-center justify-center my-2">
       <span class="text-lg font-extralight font-sans italic"
