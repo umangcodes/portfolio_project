@@ -29,7 +29,7 @@
     </div>
     <!-- interests -->
     <!-- skills -->
-    <Skills />
+    <SkillsV2 />
     <!-- projects -->
     <!-- blog -->
     <Updates />
@@ -40,14 +40,14 @@
 <script>
 // @ is an alias to /src
 import Intro from "../components/home/Intro.vue";
-import Skills from "../components/home/Skills.vue";
+import SkillsV2 from "../components/home/SkillsV2.vue";
 import Updates from "../components/home/Updates.vue";
 import Login from "../components/navigation/Login.vue";
 export default {
   name: "Home",
   components: {
     Intro,
-    Skills,
+    SkillsV2,
     Updates,
     Login,
   },
