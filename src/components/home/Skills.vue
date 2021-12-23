@@ -3,18 +3,18 @@
     <div
       class="grid grid-cols-3 ml-5 mr-5 my-10 py-2 w-full justify-items-center"
     >
-      <div class="grid-start-1 flex items-center">
+      <div class="lg:grid-start-1 flex items-top">
         <!-- <img
           src="https://static.startuptalky.com/2021/10/Top-skills-in-demand-startuptalky.jpg"
           alt=""
           class="object-cover h-auto w-auto"
         /> -->
         <div class="">
-          <span class="text-center font-bold text-9xl">Skills</span>
+          <span class="text-center font-bold text-2xl">Skills</span>
         </div>
       </div>
-      <div class="flex items-center">
-        <div class="grid-start-2 flex flex-col justify-items-center">
+      <div class="flex items-top">
+        <div class="grid-start-2 flex flex-col">
           <span class="text-xl font-semibold">Technical</span>
           <ul class="px-5">
             <li>Vuex</li>
@@ -28,8 +28,8 @@
           </ul>
         </div>
       </div>
-      <div class="flex items-center">
-        <div class="grid-start-3 flex flex-col justify-items-center">
+      <div class="flex items-top">
+        <div class="grid-start-3 flex flex-col">
           <span class="text-xl font-semibold">Others</span>
           <ul class="px-5">
             <li>Linux</li>
