@@ -3,8 +3,13 @@ import store from "../store/index.js";
 import Home from "../views/Home.vue";
 import SecretPathV1 from "../views/SecretPathV1.vue";
 import Projects from "../views/Projects.vue";
-
+import Error404 from "../components/errors/error404.vue";
 const routes = [
+  {
+    path: "/:pathMatch(.*)*",
+    name: "error404",
+    component: Error404,
+  },
   {
     path: "/",
     name: "Home",
@@ -39,6 +44,7 @@ const routes = [
 ];
 
 const router = createRouter({
+  mode: "history",
   history: createWebHistory(process.env.BASE_URL),
   routes,
 });
