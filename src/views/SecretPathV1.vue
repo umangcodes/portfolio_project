@@ -21,15 +21,15 @@
     >
       Coming very soon!
     </div>
-    <!-- <Specials /> -->
+    <Specials />
   </div>
 </template>
 
 <script>
-// import Specials from "../components/secret/Specials.vue";
+import Specials from "../components/secret/Specials.vue";
 export default {
   components: {
-    // Specials,
+    Specials,
   },
   methods: {
     scrollToTop() {
