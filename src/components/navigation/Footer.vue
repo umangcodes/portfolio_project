@@ -1,7 +1,7 @@
 <template>
   <div
     id="Footer"
-    class="relative bottom-0 border-t h-auto w-screen"
+    class="relative bottom-0 border-t h-auto w-auto"
     style="
       background-image: url('https://wallpaperaccess.com/full/1947484.jpg');
     "
@@ -20,7 +20,7 @@
       <span class="text-xl text-white font-medium pt-5"
         >umanga.eng@gmail.com</span
       >
-      <span class="font-thin text-white"
+      <span class="font-thin text-white text-center"
         >Would love to hear from you whether its regarding a project, job
         opportunity or just a chat! feel free to contact me.
       </span>
