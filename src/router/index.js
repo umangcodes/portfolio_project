@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 import SecretPathV1 from "../views/SecretPathV1.vue";
 import Projects from "../views/Projects.vue";
 import Error404 from "../components/errors/error404.vue";
+import FirebaseIntegrationTest from "../components/test/FirebaseIntegrationTest.vue";
 const routes = [
   {
     path: "/:pathMatch(.*)*",
@@ -40,6 +41,11 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
+  },
+  {
+    path: "/firebaseTesting/:id",
+    name: "firebase",
+    component: FirebaseIntegrationTest,
   },
 ];
 
