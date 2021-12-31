@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen">
+  <div class="h-auto">
     <div class="flex flex-col items-center justify-items-center">
       <span class="text-3xl mx-5 my-10">Upcoming updates</span>
 
