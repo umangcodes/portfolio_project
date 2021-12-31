@@ -5,18 +5,25 @@
         @submit.prevent="login"
         class="flex flex-col mx-5 my-5 items-center"
       >
-        <Label>Want to know more?</Label>
-        <span class="text-center"
-          >Enter a passcode and you will be allowed into the amazing world I
-          live in!</span
-        >
+        <span class="text-center"></span>
         <div class="mt-5">
-          <input class="border-b mx-5" type="text" v-model="password" />
+          <input
+            class="mx-5"
+            type="text"
+            v-model="password"
+            placeholder="wanna know more?"
+          />
           <button
             :click="login"
             class="border rounded-full px-2 italic font-semibold hover:shadow-lg"
           >
-            Go!
+            Sure!
+          </button>
+          <button
+            :onClick="jumpToIntro"
+            class="border rounded-full mx px-2 italic font-semibold hover:shadow-lg"
+          >
+            Next time!
           </button>
         </div>
       </form>
@@ -36,6 +43,9 @@ export default {
       this.$store.dispatch("addPasscode", this.password);
       console.log(this.password);
       this.$router.push("/secret_path");
+    },
+    jumpToIntro() {
+      window.scroll({ top: 0, left: 0, behavior: "smooth" });
     },
   },
 };
