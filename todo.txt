@@ -1,0 +1,4 @@
+- 404 redirect page
+- skills icons page/ component
+- firebase setup for blogs and projects
+- 
