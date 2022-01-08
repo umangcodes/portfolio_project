@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col justify-center items-center h-screen w-auto">
-    <div class="flex">
+  <div class="flex flex-col justify-center items-center h-screen">
+    <div class="flex w-4/5 justify-evenly">
       <button
         :class="
           disablePrev
