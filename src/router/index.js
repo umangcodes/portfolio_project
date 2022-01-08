@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 import SecretPathV1 from "../views/SecretPathV1.vue";
 import Projects from "../views/Projects.vue";
 import Error404 from "../components/errors/error404.vue";
+import Card from "../views/PersonalCard.vue";
 const routes = [
   {
     path: "/:pathMatch(.*)*",
@@ -14,6 +15,11 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/card",
+    name: "Card",
+    component: Card,
   },
   {
     path: "/secret_path",

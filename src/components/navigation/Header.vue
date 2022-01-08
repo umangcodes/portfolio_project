@@ -12,7 +12,7 @@
     <div class="rounded-full grid justify-items-end lg:pr-24">
       <img
         class="inline object-cover w-20 h-20 mr-2 rounded-full"
-        src="@/assets/portfolio_image.jpg"
+        src="@/assets/UmangAAvatar.jpg"
         alt=""
       />
     </div>

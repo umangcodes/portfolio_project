@@ -1,8 +1,8 @@
 <template>
   <div class="m-0">
-    <Header />
+    <Header v-if="this.$route.path != '/card'" />
     <router-view />
-    <Footer />
+    <Footer v-if="this.$route.path != '/card'" />
   </div>
 </template>
 <script>
