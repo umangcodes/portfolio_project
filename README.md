@@ -1,24 +1,13 @@
 # portfolio
 
-## Project setup
-```
-npm install
-```
+## Intro
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
-```
+I created this project to showcase my skills in web development. I have used Vue.js framework along with many different technologies to create this portfolio.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+For more details please visit the site.
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+Find Deployment at (https://www.umangagrawal.com).
