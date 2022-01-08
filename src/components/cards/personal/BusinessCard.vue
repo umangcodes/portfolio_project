@@ -27,11 +27,11 @@
         <span class="px-5 text-center">Feel free to contact me at</span>
       </div> -->
         <div class="flex pt-10 justify-evenly">
-          <a class="font-thin" href="#">
+          <a class="font-thin" :href="$store.state.personalInfo.linkedin">
             <LinkedInIcon />
           </a>
           |
-          <a class="font-thin" href="#">
+          <a class="font-thin" :href="$store.state.personalInfo.github">
             <GitHubIcon />
           </a>
         </div>

@@ -3,6 +3,10 @@ import { createStore } from "vuex";
 export default createStore({
   state: {
     passcode: "pass",
+    personalInfo: {
+      linkedin: "https://www.linkedin.com/in/umanga-eng/",
+      github: "https://github.com/umangcodes",
+    },
   },
   mutations: {
     SET_PASSCODE(state, payload) {
