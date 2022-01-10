@@ -5,6 +5,10 @@ import SecretPathV1 from "../views/SecretPathV1.vue";
 import Projects from "../views/Projects.vue";
 import Error404 from "../components/errors/error404.vue";
 import Card from "../views/PersonalCard.vue";
+import DevelopersCorner from "../views/DevelopersCorner.vue";
+import DcFrontEnd from "../components/dc/DcFrontEnd.vue";
+import DcTools from "../components/dc/DcTools";
+import DcMisc from "../components/dc/DcMisc";
 const routes = [
   {
     path: "/:pathMatch(.*)*",
@@ -37,6 +41,26 @@ const routes = [
     path: "/projects",
     name: "projects",
     component: Projects,
+  },
+  {
+    path: "/DC",
+    name: "DC",
+    component: DevelopersCorner,
+  },
+  {
+    path: "/dc/frontEnd",
+    name: "dcfrontend",
+    component: DcFrontEnd,
+  },
+  {
+    path: "/dc/tools",
+    name: "dctools",
+    component: DcTools,
+  },
+  {
+    path: "/dc/misc",
+    name: "dcmisc",
+    component: DcMisc,
   },
   {
     path: "/about",
