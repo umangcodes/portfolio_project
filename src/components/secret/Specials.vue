@@ -10,7 +10,7 @@
       <div
         class="grid-start-1 row-start-1 mx-5 flex flex-col h-48 items-center"
       >
-        <span class="">{{ dataObject.shortDescription }}</span>
+        <span class="text-center">{{ dataObject.shortDescription }}</span>
         <button
           class="m-auto rounded-full border w-auto px-3 py-2 hover:shadow-md"
           :onClick="() => $router.push({ name: dataObject.link })"
