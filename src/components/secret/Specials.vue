@@ -41,9 +41,6 @@
 <script>
 export default {
   props: ["dataObject", "index"],
-  created() {
-    console.log(this.dataObject);
-  },
 };
 </script>
 
