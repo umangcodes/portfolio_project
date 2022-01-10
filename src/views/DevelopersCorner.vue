@@ -25,21 +25,21 @@ export default {
           title: "Front End",
           link: "dcfrontend",
           shortDescription:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur.",
+            "New to front end web development? Try out a range of latest front end technologies. ",
         },
         {
           index: 2,
           title: "Tools",
           link: "dctools",
           shortDescription:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur.",
+            "Want to know which front end development tools I prefer? Vist the page to know more",
         },
         {
           index: 3,
           title: "Misc",
           link: "dcmisc",
           shortDescription:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consectetur.",
+            "Find a list of miscellaneous blogs which includes a varied range of topics ",
         },
       ],
     };
