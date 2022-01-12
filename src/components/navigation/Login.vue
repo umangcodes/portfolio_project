@@ -5,8 +5,7 @@
         @submit.prevent="login"
         class="flex flex-col mx-5 my-5 items-center"
       >
-        <span class="text-center"></span>
-        <div class="mt-5">
+        <div class="mt-5 flex lg:flex-row flex-col">
           <input
             class="mx-5"
             type="text"
@@ -15,13 +14,13 @@
           />
           <button
             :click="login"
-            class="border rounded-full px-2 italic font-semibold hover:shadow-lg"
+            class="border rounded-full lg:mx-2 my-2 px-2 italic font-semibold hover:shadow-lg"
           >
             Sure!
           </button>
           <button
             :onClick="jumpToIntro"
-            class="border rounded-full mx px-2 italic font-semibold hover:shadow-lg"
+            class="border rounded-full lg:mx-2 my-2 px-2 italic font-semibold hover:shadow-lg"
           >
             Next time!
           </button>
