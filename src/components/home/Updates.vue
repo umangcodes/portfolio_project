@@ -10,7 +10,8 @@
           <li>Tons of portfolio projects to display</li>
           <li>Blog details</li>
           <li>V0.1 Secret path info update</li>
-          <li>& card mobile optimizations</li>
+          <li>card mobile optimizations</li>
+          <li>& store modularization</li>
         </ul>
       </div>
     </div>
