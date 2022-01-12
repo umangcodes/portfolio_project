@@ -26,13 +26,19 @@
       </span>
     </div>
     <div class="flex justify-evenly">
-      <button class="text-white text-xl font-bold" :onClick="homeClicked">
+      <button
+        class="text-white text-xl hover:font-semibold"
+        :onClick="homeClicked"
+      >
         Home
       </button>
-      <button class="text-white text-xl" :onClick="dcClicked">
+      <button class="text-white text-xl hover:font-bold" :onClick="dcClicked">
         Developer's Corner
       </button>
-      <button class="text-white text-xl font-bold" :onClick="aboutClicked">
+      <button
+        class="text-white text-xl hover:font-bold"
+        :onClick="aboutClicked"
+      >
         About
       </button>
     </div>
@@ -54,22 +60,18 @@ export default {
   },
   methods: {
     homeClicked() {
-      console.log("Going to home page!");
       this.$router.push("/");
       window.scroll(0, 0);
     },
     dcClicked() {
-      console.log("Going to dc!");
       this.$router.push("/dc");
       window.scroll(0, 0);
     },
     projectsClicked() {
-      console.log("Going to projects page!");
       this.$router.push("/projects");
       window.scroll(0, 0);
     },
     aboutClicked() {
-      console.log("Going to about page!");
       this.$router.push("/about");
       window.scroll(0, 0);
     },
