@@ -1,16 +1,17 @@
 <template>
-  <div class="h-48">
+  <div class="min-h-48">
     <div class="flex flex-col mx-5 my-5 items-center">
+      <span class="mt-10">Wanna know more?</span>
       <form
         @submit.prevent="login"
         class="flex flex-col mx-5 my-5 items-center"
       >
-        <div class="mt-5 flex lg:flex-row flex-col">
+        <div class="mt-5 flex flex-col lg:flex-row">
           <input
-            class="mx-5"
+            class="mx-5 w-24"
             type="text"
             v-model="password"
-            placeholder="wanna know more?"
+            placeholder="Password"
           />
           <button
             :click="login"
