@@ -29,9 +29,9 @@
       <button class="text-white text-xl font-bold" :onClick="homeClicked">
         Home
       </button>
-      <!-- <button class="text-white text-xl" :onClick="projectsClicked">
-        Projects
-      </button> -->
+      <button class="text-white text-xl" :onClick="dcClicked">
+        Developer's Corner
+      </button>
       <button class="text-white text-xl font-bold" :onClick="aboutClicked">
         About
       </button>
@@ -56,6 +56,11 @@ export default {
     homeClicked() {
       console.log("Going to home page!");
       this.$router.push("/");
+      window.scroll(0, 0);
+    },
+    dcClicked() {
+      console.log("Going to dc!");
+      this.$router.push("/dc");
       window.scroll(0, 0);
     },
     projectsClicked() {
