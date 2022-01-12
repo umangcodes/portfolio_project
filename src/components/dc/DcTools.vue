@@ -1,12 +1,20 @@
 <template>
   <div class="mx-5 my-5 min-h-screen">
-    <div id="front-end-tools" class="">
-      <span class="text-2xl mx-5"> Front End</span>
-      <Tools v-for="tool in frontEndTools" :dataObject="tool" :key="tool.id" />
+    <div id="front-end-tools" class="my-5">
+      <span class="text-2xl mx-5"> >> Front End</span>
+      <div class="lg:grid lg:grid-cols-3 lg:gap-5">
+        <Tools
+          v-for="tool in frontEndTools"
+          :dataObject="tool"
+          :key="tool.id"
+        />
+      </div>
     </div>
-    <div id="api-tools" class="">
-      <span class="text-2xl mx-5"> API Tools</span>
-      <Tools v-for="tool in apiTools" :dataObject="tool" :key="tool.id" />
+    <div id="api-tools" class="my-5">
+      <span class="text-2xl mx-5 py-5"> >> API Tools</span>
+      <div class="lg:grid lg:grid-cols-3 lg:gap-5">
+        <Tools v-for="tool in apiTools" :dataObject="tool" :key="tool.id" />
+      </div>
     </div>
     <span class="flex justify-center italic text-lg font-thin"
       >To be updated soon...</span

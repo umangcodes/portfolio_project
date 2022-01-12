@@ -1,7 +1,7 @@
 <template>
   <a :href="dataObject.link" class="">
     <div
-      class="rounded-xl border shadow-lg hover:shadow-xl w-auto min-h-fit px-5 pt-5 my-5"
+      class="rounded-xl border shadow-lg hover:shadow-xl w-auto min-h-fit px-5 pt-5 mt-5"
     >
       <div id="card-title" class="">
         <div class="grid grid-col-2">
@@ -31,24 +31,10 @@
           </div>
         </div>
       </div>
-      <div
-        id="card-body"
-        class="lg:grid lg:grid-cols-4 grid grid-cols-2 mx-5 mt-5"
-      >
-        <div id="card-image" class="col-start-1 my-5 mx-10 flex items-center">
-          <img
-            v-if="dataObject.img"
-            :src="dataObject.img"
-            class="h-auto w-auto max-w-[10%] rounded-full"
-            :alt="dataObject.altImg"
-          />
-          <div v-if="!dataObject.img" class="text-4xl">
-            {{ dataObject.altImg }}
-          </div>
-        </div>
-        <div id="card-desc" class="col-start-2 lg:col-span-3 my-5">
+      <div id="card-body" class="mx-5 mt-5">
+        <div id="card-desc" class="my-5">
           <div class="flex flex-col">
-            <span class="text-thin italic lg:text-xl">
+            <span class="text-thin italic lg:text-xl text-center">
               {{ dataObject.shortDesc }}
             </span>
             <div id="card-actions" class="flex justify-end my-5">

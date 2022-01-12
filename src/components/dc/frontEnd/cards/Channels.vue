@@ -40,7 +40,7 @@
       </div>
       <div id="card-desc" class="col-start-2 lg:col-span-3 my-5">
         <div class="flex flex-col">
-          <span class="text-thin italic lg:text-xl">
+          <span class="text-thin italic lg:text-xl text-center">
             {{ dataObject.shortDesc }}
           </span>
           <div id="card-actions" class="flex justify-end my-5">

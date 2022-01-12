@@ -9,45 +9,57 @@
           >JS</a
         >
       </span>
-      <Cards
-        v-for="(object, index) in javascript"
-        :dataObject="object"
-        :key="index"
-      />
+      <div class="lg:grid lg:grid-cols-3 lg:gap-5">
+        <Cards
+          v-for="(object, index) in javascript"
+          :dataObject="object"
+          :key="index"
+        />
+      </div>
     </div>
     <div id="front-end-vue-courses">
-      <span class="text-2xl mx-5">
+      <span class="text-2xl mx-5 flex">
         >> Amazing Resources for
         <a
           href="https://vuejs.org/"
-          class="font-bold text-green-500 hover:text-green-700"
+          class="rounded-xl mx-1 px-1 font-bold text-green-500 hover:text-green-700"
           >Vue.js</a
         >
       </span>
-      <Cards v-for="(object, index) in vue" :dataObject="object" :key="index" />
+      <div class="lg:grid lg:grid-cols-3 lg:gap-5">
+        <Cards
+          v-for="(object, index) in vue"
+          :dataObject="object"
+          :key="index"
+        />
+      </div>
     </div>
     <div id="front-end-react-courses">
-      <span class="text-2xl mx-5">
+      <span class="text-2xl mx-5 flex">
         >> Amazing Resources for
         <a
           href="https://reactjs.org/"
-          class="drop-shadow-lg font-bold text-blue-500 hover:text-blue-700 hover:text-shadow-lg"
+          class="font-bold px-1 text-blue-500 hover:text-blue-700 hover:text-shadow-lg"
           >React.js</a
         >
       </span>
-      <Cards
-        v-for="(object, index) in react"
-        :dataObject="object"
-        :key="index"
-      />
+      <div class="lg:grid lg:grid-cols-3 lg:gap-5">
+        <Cards
+          v-for="(object, index) in react"
+          :dataObject="object"
+          :key="index"
+        />
+      </div>
     </div>
     <div id="front-end-related-courses">
-      <span class="text-2xl mx-5"> >> Related Resources </span>
-      <Cards
-        v-for="(object, index) in mongo"
-        :dataObject="object"
-        :key="index"
-      />
+      <span class="text-2xl mx-5 flex"> >> Related Resources </span>
+      <div class="lg:grid lg:grid-cols-3 lg:gap-5">
+        <Cards
+          v-for="(object, index) in mongo"
+          :dataObject="object"
+          :key="index"
+        />
+      </div>
     </div>
   </div>
 </template>
