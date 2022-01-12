@@ -5,12 +5,8 @@
         >About this portfolio</span
       >
       <p class="text-lg font-extralight p-5 text-center">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-        perferendis est, eveniet perspiciatis totam autem! Delectus, sit
-        corrupti inventore eveniet quo maxime impedit incidunt consectetur
-        facilis qui vitae nostrum sint rerum numquam iure suscipit similique
-        iste ipsa ea obcaecati doloribus vel error. Dolorem quo dolor
-        perspiciatis pariatur, nam quaerat aliquid!
+        This site is still under development. Please visit again for more
+        content.
       </p>
     </div>
   </div>
