@@ -1,6 +1,6 @@
 <template>
   <div id="container" class="mb-10 min-h-screen">
-    <span class="flex text-3xl justify-center"
+    <span class="flex text-3xl justify-center mb-20"
       >Welcome to Developer's Corner</span
     >
     <div>
