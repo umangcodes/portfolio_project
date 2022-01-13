@@ -6,6 +6,7 @@
     <!-- interests -->
     <!-- skills -->
     <Dc />
+    <ProjectsPanel />
     <SkillsV2 />
     <!-- projects -->
     <!-- blog -->
@@ -22,7 +23,7 @@ import Updates from "../components/home/Updates.vue";
 import Login from "../components/navigation/Login.vue";
 import Dc from "../components/home/Dc.vue";
 import Philosophy from "../components/home/Philosophy.vue";
-
+import ProjectsPanel from "../components/home/ProjectsPanel.vue";
 export default {
   name: "Home",
   components: {
@@ -32,6 +33,7 @@ export default {
     Login,
     Dc,
     Philosophy,
+    ProjectsPanel,
   },
 };
 </script>
