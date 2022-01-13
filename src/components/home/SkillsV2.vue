@@ -1,8 +1,8 @@
 <template>
-  <div class="h-96 mx-5 my-5">
+  <div class="h-96 mx-5 my-5 flex justify-center items-center">
     <div class="flex flex-col">
       <span class="text-center text-2xl py-5 font-semibold">Skills</span>
-      <div>
+      <div class="">
         <!-- <SkillsPanel /> -->
         <TechSkills />
       </div>
