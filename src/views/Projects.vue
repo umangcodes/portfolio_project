@@ -16,6 +16,7 @@
         :projectDetails="project"
       />
     </div>
+    <p class="text-thin text-center">Many more to be displayed soon...</p>
   </div>
 </template>
 
@@ -61,11 +62,11 @@ export default {
             "Technical challenge provided during technical round of my interview with XXXX company. The project is not deployed due to some reasons. Feel free to access the code on github. For details feel free to contact me.",
           gitLink: "https://github.com/umangcodes/pokemon",
           depLink: "",
-          tech: ["Vue", "Vuex", "Vuetify", "JS", "tailwindCSS"],
+          tech: ["Vue", "Vuex", "Vuetify", "JS", "tailwindCSS", "REST"],
         },
         {
           id: "5",
-          title: "project 5",
+          title: "GraphQL",
           description:
             "Developed basic GraphQL api using node.js, express.js. This was a practice project and does not have a deployment link.",
           gitLink: "https://github.com/umangcodes/graphql",
@@ -77,9 +78,9 @@ export default {
           title: "Custom form validation method using JS",
           description:
             "Creating methods for each rule of form validation is difficult. I came across a lot of issues and tried a unique way to handle this problem using raw JS. Please visit GitHub readme for details.",
-          gitLink: "https://github.com/umangcodes/graphql",
-          depLink: "",
-          tech: ["node.js", "express.js", "graphQL"],
+          gitLink: "https://github.com/umangcodes/custom-form-validation",
+          depLink: "https://e-commerce-1-5gnz3ug0w-umangcodes.vercel.app/",
+          tech: ["JS", "Vue"],
         },
       ],
     };
