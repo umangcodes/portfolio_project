@@ -1,9 +1,9 @@
 <template>
   <div
-    class="flex flex-col lg:grid lg:grid-cols-2 px-5 lg:h-96 h-auto border-t"
+    class="flex flex-col lg:grid lg:grid-cols-2 px-5 lg:h-96 h-auto lg:border-t"
   >
     <div class="flex lg:col-start-1 lg:row-start-1 justify-center items-center">
-      <p class="text-6xl text-center">Developer's Corner</p>
+      <p class="lg:text-6xl text-5xl text-center">Developer's Corner</p>
     </div>
     <div
       class="flex flex-col justify-center lg:col-start-2 lg:row-start-1 lg:px-16 items-center lg:w-auto mx-auto"

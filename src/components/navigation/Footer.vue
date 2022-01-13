@@ -26,7 +26,7 @@
       </span>
     </div>
     <div class="flex justify-evenly">
-      <button
+      <!-- <button
         class="text-white text-xl hover:font-semibold"
         :onClick="homeClicked"
       >
@@ -37,7 +37,7 @@
         :onClick="aboutClicked"
       >
         About
-      </button>
+      </button> -->
     </div>
     <div class="flex items-center justify-center my-2">
       <span class="text-lg font-extralight font-sans italic text-white"

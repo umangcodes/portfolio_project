@@ -15,7 +15,7 @@
         <p class="text-xl font-bold">Performance Updates</p>
         <ul class="flex flex-col items-center my-2">
           <li class="flex">
-            card mobile optimizations
+            Mobile optimizations
             <!-- <img
               class="h-5 w-5 py-1"
               src="https://cdn-icons.flaticon.com/png/512/368/premium/368633.png?token=exp=1642034554~hmac=8b8d1d3e7c6359307968958edf5ea126"
