@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col lg:grid lg:grid-cols-2 mx-5 h-screen border-t border-b"
+    class="flex flex-col lg:grid lg:grid-cols-2 px-5 lg:h-96 h-auto border-t"
   >
     <div class="flex lg:col-start-1 lg:row-start-1 justify-center items-center">
       <p class="text-6xl text-center">Developer's Corner</p>
