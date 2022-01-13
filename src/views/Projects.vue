@@ -3,18 +3,17 @@
     <!-- Heading -->
     <div class="flex flex-col items-center">
       <span class="text-4xl">My projects</span>
-      <span class="font-thin text-lg"
+      <span class="font-thin text-lg mt-2 mb-10"
         >Page under development. updates coming very soon.</span
       >
     </div>
     <!-- Project Cards -->
 
-    <div class="grid md:grid-cols-3 m-5">
-      <projectCards
+    <div class="lg:grid lg:grid-cols-3 lg:gap-5">
+      <ProjectCards
         v-for="project in projectList"
         :key="project.id"
         :projectDetails="project"
-        class="border shadow-md m-5"
       />
     </div>
   </div>
@@ -28,43 +27,59 @@ export default {
       projectList: [
         {
           id: "1",
-          title: "project 1",
+          title: "Ghost Kitchen",
           description:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod nisi nemo ad nesciunt molestias minus aut ipsa, veniam voluptas cumque eum hic inventore! Temporibus ad id animi quod nemo?",
-          gitLink: "https://github.com/umangcodes/pokemon",
-          depLink: "",
+            "Front end created for a ghost kitchen to display there service and products catalogue. The website can be easily scalled up using the components present in the project.",
+          gitLink:
+            "https://github.com/umangcodes/Blog1/tree/master/ghostkitchen",
+          depLink: "https://blog1-kappa.vercel.app/",
+          tech: ["Vue", "Vuex", "Vuetify"],
         },
         {
           id: "2",
-          title: "project 2",
+          title: "Vuetify demo project",
           description:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod nisi nemo ad nesciunt molestias minus aut ipsa, veniam voluptas cumque eum hic inventore! Temporibus ad id animi quod nemo?",
+            "Project created to demonstrate the useage of Vuetify's advance components along with inbuilt form validation functionality of vuetify's forms component.",
           gitLink: "",
-          depLink: "",
+          depLink: "https://beautifywithvuetify.vercel.app/",
+          tech: ["Vue", "Vuex", "Vuetify", "JS"],
         },
         {
           id: "3",
-          title: "project 3",
+          title: "Weather App",
           description:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod nisi nemo ad nesciunt molestias minus aut ipsa, veniam voluptas cumque eum hic inventore! Temporibus ad id animi quod nemo?",
-          gitLink: "",
-          depLink: "",
+            "Want to know what is the weather in your city? try out this app. [I was focusing on how to make the app work and not on user experince when I created this app. Apologies for bad UX. :P]",
+          gitLink:
+            "https://github.com/umangcodes/wanderer/tree/main/milestoneproject",
+          depLink: "https://weatherapp-st.vercel.app/",
+          tech: ["Vue", "Vuex", "Vuetify", "JS", "openWeather"],
         },
         {
           id: "4",
-          title: "project 4",
+          title: "Pokemons",
           description:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod nisi nemo ad nesciunt molestias minus aut ipsa, veniam voluptas cumque eum hic inventore! Temporibus ad id animi quod nemo?",
-          gitLink: "",
+            "Technical challenge provided during technical round of my interview with XXXX company. The project is not deployed due to some reasons. Feel free to access the code on github. For details feel free to contact me.",
+          gitLink: "https://github.com/umangcodes/pokemon",
           depLink: "",
+          tech: ["Vue", "Vuex", "Vuetify", "JS", "tailwindCSS"],
         },
         {
           id: "5",
           title: "project 5",
           description:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod nisi nemo ad nesciunt molestias minus aut ipsa, veniam voluptas cumque eum hic inventore! Temporibus ad id animi quod nemo?",
-          gitLink: "",
+            "Developed basic GraphQL api using node.js, express.js. This was a practice project and does not have a deployment link.",
+          gitLink: "https://github.com/umangcodes/graphql",
           depLink: "",
+          tech: ["node.js", "express.js", "graphQL"],
+        },
+        {
+          id: "6",
+          title: "Custom form validation method using JS",
+          description:
+            "Creating methods for each rule of form validation is difficult. I came across a lot of issues and tried a unique way to handle this problem using raw JS. Please visit GitHub readme for details.",
+          gitLink: "https://github.com/umangcodes/graphql",
+          depLink: "",
+          tech: ["node.js", "express.js", "graphQL"],
         },
       ],
     };
