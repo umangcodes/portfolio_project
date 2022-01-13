@@ -20,7 +20,7 @@
       <span class="text-xl text-white font-medium pt-5"
         >umanga.eng@gmail.com</span
       >
-      <span class="font-thin text-white text-center"
+      <span class="font-thin text-white text-center text-lg"
         >Would love to hear from you whether its regarding a project, job
         opportunity or just a chat! feel free to contact me.
       </span>
@@ -31,9 +31,6 @@
         :onClick="homeClicked"
       >
         Home
-      </button>
-      <button class="text-white text-xl hover:font-bold" :onClick="dcClicked">
-        Developer's Corner
       </button>
       <button
         class="text-white text-xl hover:font-bold"
@@ -61,14 +58,6 @@ export default {
   methods: {
     homeClicked() {
       this.$router.push("/");
-      window.scroll(0, 0);
-    },
-    dcClicked() {
-      this.$router.push("/dc");
-      window.scroll(0, 0);
-    },
-    projectsClicked() {
-      this.$router.push("/projects");
       window.scroll(0, 0);
     },
     aboutClicked() {
