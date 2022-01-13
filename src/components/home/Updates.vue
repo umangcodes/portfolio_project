@@ -16,19 +16,19 @@
         <ul class="flex flex-col items-center my-2">
           <li class="flex">
             card mobile optimizations
-            <img
+            <!-- <img
               class="h-5 w-5 py-1"
               src="https://cdn-icons.flaticon.com/png/512/368/premium/368633.png?token=exp=1642034554~hmac=8b8d1d3e7c6359307968958edf5ea126"
               alt=""
-            />
+            /> -->
           </li>
           <li class="flex">
             store modularization
-            <img
+            <!-- <img
               class="h-6 w-6 px-1 py-1"
               src="https://cdn-icons.flaticon.com/png/512/3279/premium/3279041.png?token=exp=1642034745~hmac=d972335c69a400cff45c1f6c95253345"
               alt=""
-            />
+            /> -->
           </li>
         </ul>
       </div>
