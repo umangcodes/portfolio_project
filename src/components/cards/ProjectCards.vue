@@ -1,18 +1,18 @@
 <template>
-  <div class="flex flex-col border rounded-xl hover:scale-105 h-auto w-auto">
+  <div class="flex flex-col border rounded-xl h-auto w-auto">
     <div class="">
       <div class="grid grid-rows-4">
-        <div class="row-start-1 flex items-center">
+        <div class="row-start-1 flex items-center lg:my-0 my-2">
           <div class="px-5 pt-5 font-bold text-xl">
             {{ projectDetails.id }}. {{ projectDetails.title }}
           </div>
         </div>
-        <div class="row-start-2">
+        <div class="row-start-2 lg:my-0 my-2">
           <div class="px-5 font-thin h-20 ml-2">
             {{ projectDetails.description }}
           </div>
         </div>
-        <div class="pt-2 px-5 row-start-3 flex flex-col">
+        <div class="pt-2 px-5 row-start-3 flex flex-col lg:my-0 my-2">
           <p class="font-semibold text-lg mr-5">Tech Stack:</p>
           <div class="font-thin flex ml-2">
             <div v-for="tech in projectDetails.tech" :key="tech" class="mr-2">
@@ -20,7 +20,7 @@
             </div>
           </div>
         </div>
-        <div class="row-start-4">
+        <div class="row-start-4 lg:my-0 my-2">
           <p class="pl-5 font-semibold text-lg mr-5 mb-1">Visit:</p>
           <div id="card-actions" class="flex mx-8">
             <button class="rounded-full mr-2 pr-2 hover:shadow-md">
