@@ -115,6 +115,21 @@ export default {
           stars: 9,
           speciality: ["Web dev", "All"],
         },
+        {
+          id: 4,
+          channelTitle: "Akshay Saini",
+          shortDesc:
+            "Want to learn the core concepts of javascript? This guy made it easy. Checkout this playlist. Authors Choice! ",
+          creator: "Akshay Saini",
+          links: {
+            youtube:
+              "https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP",
+            site: "https://akshaysaini.in/",
+          },
+          img: "https://yt3.ggpht.com/ytc/AKedOLR8gqN3fHHNYbehMcsJ49rapBPhJMGPYSrl6YQyNg=s88-c-k-c0x00ffffff-no-rj",
+          stars: 10,
+          speciality: ["JS"],
+        },
       ],
       vue: [
         {
