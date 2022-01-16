@@ -47,9 +47,7 @@ export default {
   components: {
     Specials,
   },
-  created() {
-    window.scroll(0, 0);
-  },
+  
 };
 </script>
 

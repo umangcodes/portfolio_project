@@ -88,9 +88,6 @@ export default {
   components: {
     ProjectCards,
   },
-  created() {
-    window.scroll(0, 0);
-  },
 };
 </script>
 
