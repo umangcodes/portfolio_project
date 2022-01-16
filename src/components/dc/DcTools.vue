@@ -130,6 +130,11 @@ export default {
   components: {
     Tools,
   },
+  methods: {
+    goBack() {
+      this.$router.go(-1);
+    },
+  },
 };
 </script>
 
