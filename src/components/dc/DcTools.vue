@@ -1,5 +1,11 @@
 <template>
   <div class="mx-5 my-5 min-h-screen">
+    <button
+      :onClick="goBack"
+      class="my-5 hover:shadow-xl px-2 py-1 border rounded-full"
+    >
+      &lt; &lt; Go Back
+    </button>
     <div id="front-end-tools" class="my-5">
       <span class="text-2xl mx-5"> >> Front End</span>
       <div class="lg:grid lg:grid-cols-3 lg:gap-5">
@@ -19,6 +25,12 @@
     <span class="flex justify-center italic text-lg font-thin"
       >To be updated soon...</span
     >
+    <button
+      :onClick="goBack"
+      class="my-5 hover:shadow-xl px-2 py-1 border rounded-full"
+    >
+      &lt; &lt; Go Back
+    </button>
   </div>
 </template>
 

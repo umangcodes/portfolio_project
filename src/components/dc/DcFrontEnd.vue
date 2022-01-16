@@ -1,5 +1,13 @@
 <template>
   <div class="mx-5 my-5 min-h-screen">
+    <div>
+      <button
+        :onClick="goBack"
+        class="my-5 hover:shadow-xl px-2 py-1 border rounded-full"
+      >
+        &lt; &lt; Go Back
+      </button>
+    </div>
     <div id="front-end-JS-courses">
       <span class="text-2xl mx-5 flex">
         >> Amazing Resources for
@@ -61,6 +69,12 @@
         />
       </div>
     </div>
+    <button
+      :onClick="goBack"
+      class="my-5 hover:shadow-xl px-2 py-1 border rounded-full"
+    >
+      &lt; &lt; Go Back
+    </button>
   </div>
 </template>
 
@@ -181,7 +195,12 @@ export default {
       ],
     };
   },
+  methods: {
+    goBack() {
+      this.$router.go(-1);
+    },
+  },
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped></style>
