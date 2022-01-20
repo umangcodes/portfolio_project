@@ -8,7 +8,7 @@
             <img
               :src="require('@/assets/home.png')"
               alt=""
-              class="h-8"
+              class="lg:h-8 lg:mt-0 mt-5"
               v-if="$route.path != '/'"
             />
           </div>
@@ -18,7 +18,7 @@
       </div>
     </div>
     <router-link :to="{ name: 'About' }">
-      <div class="rounded-full grid justify-items-end lg:pr-24">
+      <div class="rounded-full grid justify-items-end lg:pr-24 pr-10">
         <img
           class="inline object-cover w-20 h-20 mr-2 rounded-full"
           src="@/assets/UmangAAvatar.jpg"
