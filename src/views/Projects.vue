@@ -3,7 +3,7 @@
     <!-- Heading -->
     <div class="flex flex-col items-center">
       <span class="text-4xl">My projects</span>
-      <span class="font-thin text-lg mt-2 mb-10"
+      <span class="font-thin text-lg mt-2 mb-10 text-center"
         >Page under development. updates coming very soon.</span
       >
     </div>
