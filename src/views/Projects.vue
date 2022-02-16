@@ -82,6 +82,16 @@ export default {
           depLink: "https://e-commerce-1-5gnz3ug0w-umangcodes.vercel.app/",
           tech: ["JS", "Vue"],
         },
+        {
+          id: "7",
+          title: "Navigation Guards for restricted access",
+          description:
+            "There are many instances where you want only particular users to access certain areas of the site. To implement this functionality, use Vue router's inbuilt navigation guard functionality. Enter passcode: Pass! on front page to check live demo.",
+          gitLink:
+            "https://github.com/umangcodes/portfolio_project/blob/main/src/router/index.js",
+          depLink: "https://www.umangagrawal.com/",
+          tech: ["JS", "Vue"],
+        },
       ],
     };
   },
