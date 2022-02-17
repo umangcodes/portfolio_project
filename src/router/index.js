@@ -30,7 +30,7 @@ const routes = [
     name: "Secret Path 1",
     component: SecretPathV1,
     beforeEnter: (to, from, next) => {
-      if (store.state.passcode == "pass!") {
+      if (store.state.passcode == "Pass!") {
         next();
       } else {
         next("/");

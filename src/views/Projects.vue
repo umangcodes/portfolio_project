@@ -16,7 +16,9 @@
         :projectDetails="project"
       />
     </div>
-    <p class="text-thin text-center">Many more to be displayed soon...</p>
+    <p class="text-thin text-center pt-3 italic">
+      Please note that the card component here is dynamic
+    </p>
   </div>
 </template>
 
@@ -84,12 +86,21 @@ export default {
         },
         {
           id: "7",
-          title: "Navigation Guards for restricted access",
+          title: "Component: Navigation Guards for restricted access",
           description:
             "There are many instances where you want only particular users to access certain areas of the site. To implement this functionality, use Vue router's inbuilt navigation guard functionality. Enter passcode: Pass! on front page to check live demo.",
           gitLink:
             "https://github.com/umangcodes/portfolio_project/blob/main/src/router/index.js",
           depLink: "https://www.umangagrawal.com/",
+          tech: ["JS", "Vue"],
+        },
+        {
+          id: "8",
+          title: "Component: Carousel",
+          description:
+            "One of the best way to display featured items on your page is to display them using a carousel. Here in this project I have created a carousel from scratch. Functionality such as slideshow and responsiveness can be configured.",
+          gitLink: "https://github.com/umangcodes/portfolio_project",
+          depLink: "https://www.umangagrawal.com/card",
           tech: ["JS", "Vue"],
         },
       ],
