@@ -2,7 +2,7 @@ import { createStore } from "vuex";
 
 export default createStore({
   state: {
-    passcode: "Pass!",
+    passcode: "",
     personalInfo: {
       linkedin: "https://www.linkedin.com/in/umanga-eng/",
       github: "https://github.com/umangcodes",
