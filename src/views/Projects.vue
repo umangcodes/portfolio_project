@@ -113,7 +113,7 @@ export default {
           tech: ["Firebase", "React"],
         },
         {
-          id: "9",
+          id: "10",
           title: "Component: Audio player with react",
           description:
             "Created a custom audio player just for fun. Check it out here.",
@@ -122,7 +122,7 @@ export default {
           tech: ["React", "Next.js"],
         },
         {
-          id: "9",
+          id: "11",
           title: "Crud app with react",
           description:
             "Crud app using React.js which stores data in localstorage of the browser.",
