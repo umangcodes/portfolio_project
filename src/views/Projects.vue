@@ -103,6 +103,33 @@ export default {
           depLink: "https://www.umangagrawal.com/card",
           tech: ["JS", "Vue"],
         },
+        {
+          id: "9",
+          title: "Login with Firebase",
+          description:
+            "Want to authenticate user before access but dont have a back end? DOnt worry use auth from firebase to do so. Follow the link to visit the code.",
+          gitLink: "https://github.com/umangcodes/crud-app-2",
+          depLink: "#",
+          tech: ["Firebase", "React"],
+        },
+        {
+          id: "9",
+          title: "Component: Audio player with react",
+          description:
+            "Created a custom audio player just for fun. Check it out here.",
+          gitLink: "https://github.com/umangcodes/audio-player",
+          depLink: "https://comp-audio-player.vercel.app/",
+          tech: ["React", "Next.js"],
+        },
+        {
+          id: "9",
+          title: "Crud app with react",
+          description:
+            "Crud app using React.js which stores data in localstorage of the browser.",
+          gitLink: "https://github.com/umangcodes/users-management-crud-app",
+          depLink: "https://react-crud-1.vercel.app/",
+          tech: ["React"],
+        },
       ],
     };
   },
