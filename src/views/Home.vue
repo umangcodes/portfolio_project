@@ -9,6 +9,9 @@
     <ProjectsPanel />
     <SkillsV2 />
     <!-- projects -->
+    <!-- Change the location of UX port from the bottom into projects panel, 
+    give a navigation option between UX and Front end development in projects panel. -->
+    <UxPort />
     <!-- blog -->
     <Updates />
     <Login />
@@ -24,6 +27,7 @@ import Login from "../components/navigation/Login.vue";
 import Dc from "../components/home/Dc.vue";
 import Philosophy from "../components/home/Philosophy.vue";
 import ProjectsPanel from "../components/home/ProjectsPanel.vue";
+import UxPort from "../components/home/UxPort.vue";
 export default {
   name: "Home",
   components: {
@@ -34,7 +38,7 @@ export default {
     Dc,
     Philosophy,
     ProjectsPanel,
+    UxPort,
   },
-  
 };
 </script>
